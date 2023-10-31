@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerRowQuestions"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:elevation="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün onlayn müraciət edə bilərəm?"
+            android:fontFamily="@font/sfprodisplaymedium"
+            android:textColor="@color/main_page_dark_blue"
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_gravity="end|center_vertical"
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:src="@drawable/plus_icon" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

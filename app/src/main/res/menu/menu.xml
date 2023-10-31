@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/home_icon"
+        android:title="Əsas"/>
+    <item
+        android:id="@+id/paymentFragment"
+        android:icon="@drawable/payment_icon"
+        android:title="Ödəmələr"/>
+    <item
+        android:id="@+id/servicesFragment"
+        android:icon="@drawable/services_icon"
+        android:title="Xidmətlər"/>
+    <item
+        android:id="@+id/indicatorsFragment"
+        android:icon="@drawable/indicators_icon"
+        android:title="Göstəricilər"/>
+    <item
+        android:id="@+id/moreFragment"
+        android:icon="@drawable/more_icon"
+        android:title="Daha çox"/>
+
+
+</menu>

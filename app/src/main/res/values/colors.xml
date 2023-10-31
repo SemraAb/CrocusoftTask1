@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="icon_clicked">#EA6162</color>
+    <color name="icon_not_clicked">#0B2447</color>
+    <color name="grey">#D9D9D9</color>
+    <color name="magenta">#EA5455</color>
+    <color name="cardview_bg_limit"> #FF091E3A</color>
+    <color name="cardview_bg_dark_limit"> #061529</color>
+    <color name="header_background"> #002B5B</color>
+    <color name="general_background"> #F0F4EF</color>
+    <color name="main_page_dark_blue">#0B2447</color>
+    <color name="cardview_item_1">#294D8C</color>
+    <color name="cardview_item_2">#A8C5B7</color>
+    <color name="cardview_item_3">#EA5455</color>
+    <color name="cards_text_color">#F9F5EB</color>
+    <color name="cards_text_cohglor">#F0F4EF</color>
+    <color name="tab_clicked">#E2E5E1</color>
+    <color name="menu_color">#F0F4EF</color>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Task1Crocusoft</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="services_text_1">Əhali abonentinin enerji təchizatı şəbəkəsinə qoşulması</string>
+    <string name="services_text_2">Qoşulma Haqqının Onlayn Ödəlməsi</string>
+    <string name="services_text_3">Kalkulyatorlar</string>
+    <string name="services_text_4">Borcun araşdırılması və borcun olmaması (və ya olması) barədə sənədin verilməsi</string>
+    <string name="services_text_5">Əhali istehlakçısının ad dəyişdirilməsi</string>
+    <string name="services_text_6">Abonentin geniş tarixçəsinin verilməsi</string>
+    <string name="services_text_7">Yük hesabatının hazırlanması</string>
+    <string name="services_text_8">İstehlakçının balansında olan elektrik şəbəkələrinə və avadanlıqlarına texniki xidmətin göstərilməsi</string>
+
+
+    <string name="question_1">Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün onlayn müraciət edə bilərəm?</string>
+    <string name="question_2">Elektrik Təchizatı şəbəkəsinə qoşulmaq
+üçün qoşulma haqqını onlayn ödəyə
+bilərəm?</string>
+    <string name="question_3">Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün hara müraciət edə bilərəm?
+</string>
+    <string name="question_4">Texniki şərt almaq üçün hansı sənədlər tələb olunur?</string>
+    <string name="question_5">Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün nə qədər vəsait ödəməliyəm?</string>
+    <string name="question_6">Texniki şərtim var güc artırmaq istəyirəm, nə etməliyəm?</string>
+    <string name="question_7">Enerji təchizatı müəssisəsi müraciətin icrasından imtina edə bilərmi?</string>
+    <string name="question_8">Tikinti-quraşdırma işlərinin aparılması üçün ETM-ə qoşulma haqqından başqa əlavə vəsait ödənilirmi?</string>
+</resources>

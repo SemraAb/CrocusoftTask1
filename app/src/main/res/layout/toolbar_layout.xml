@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/notificationIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/notification_icon"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/profile_icon"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/mainPageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="Ana səhifə"
+            android:textColor="@color/grey"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="Xoş gəlmisən, Orxan!"
+            android:textColor="@color/magenta"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/backLineIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/back_line_icon"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/profilePageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="Profil"
+            android:textColor="@color/grey"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="Xoş gəlmisən, Orxan!"
+            android:textColor="@color/magenta"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/servicesPageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaybold"
+        android:text="Xidmətlər"
+        android:textColor="@color/grey"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/paymentPageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaybold"
+        android:text="Ödənişlər"
+        android:textColor="@color/grey"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/morePageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaybold"
+        android:text="Digər "
+        android:textColor="@color/grey"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/questionsPageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaybold"
+        android:text="Tez-tez       verilən suallar"
+        android:textColor="@color/grey"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/indicatorsPageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaybold"
+        android:text="Göstəricilər"
+        android:textColor="@color/grey"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/securityRulesPageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplaybold"
+        android:text="Təhlükəsizlik qaydaları "
+        android:textColor="@color/grey"
+        android:textSize="36sp"
+        android:visibility="gone" />
+
+
+</androidx.appcompat.widget.Toolbar>

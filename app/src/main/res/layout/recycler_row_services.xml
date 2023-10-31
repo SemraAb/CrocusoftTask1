@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/recyclerRowServices"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:elevation="200dp">
+
+        <ImageView
+            android:id="@+id/servicesImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/services_icon_1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:id="@+id/servicesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="26dp"
+            android:textColor="@color/main_page_dark_blue"
+            android:fontFamily="@font/sfprodisplayregular"
+            android:text="Əhali abonentinin enerji təchizatı şəbəkəsinə qoşulması"/>
+
+    </LinearLayout>
+   <androidx.cardview.widget.CardView
+       android:id="@+id/colorHolder"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:alpha="0.3"/>
+</androidx.cardview.widget.CardView>

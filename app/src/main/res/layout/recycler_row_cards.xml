@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerRowCards"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="15dp"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardsConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="14dp"
+        android:paddingTop="24dp"
+        android:paddingRight="23dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/cardText"
+            android:layout_width="155dp"
+            android:layout_height="64dp"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="Ortalama enerji İstehlakı "
+            android:textColor="@color/cards_text_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/cardIcon"
+            android:layout_width="72dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/card_view_icon_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/cardText"
+            app:layout_constraintTop_toTopOf="@+id/cardText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
