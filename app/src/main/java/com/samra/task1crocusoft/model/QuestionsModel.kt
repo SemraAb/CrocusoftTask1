@@ -1,5 +1,5 @@
 package com.samra.task1crocusoft.model
 
-class QuestionsModel(
+data class QuestionsModel(
     var questionText: Int
 )
