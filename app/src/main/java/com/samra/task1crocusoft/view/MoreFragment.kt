@@ -50,5 +50,6 @@ class MoreFragment : Fragment() {
             var action = MoreFragmentDirections.actionMoreFragmentToWebViewFragment()
             findNavController().navigate(action)
         }
+
     }
 }

@@ -37,11 +37,9 @@ class ProfileFragment : Fragment() {
         toolbar.backLineIcon.visibility = View.VISIBLE
         toolbar.profilePageHeader.visibility = View.VISIBLE
 
-        val bottomNav = requireActivity().findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-        bottomNav.visibility = View.GONE
+
         toolbar.backLineIcon.setOnClickListener{
             findNavController().popBackStack()
-            bottomNav.visibility = View.VISIBLE
         }
     }
 

@@ -31,11 +31,9 @@ class LimitFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val bottomNav = requireActivity().findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-        bottomNav.visibility = View.GONE
+
         binding.closeBtn.setOnClickListener{
             findNavController().popBackStack()
-            bottomNav.visibility = View.VISIBLE
         }
     }
 

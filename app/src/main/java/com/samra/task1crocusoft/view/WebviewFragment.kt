@@ -44,7 +44,5 @@ class WebviewFragment : Fragment() {
 
         var toolbar = binding.toolbar
         toolbar.servicesPageHeader.visibility = View.VISIBLE
-
-
     }
 }
